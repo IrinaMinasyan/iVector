@@ -8,6 +8,6 @@ int main()
     obj.push_front(16);
     obj.push_back(23);
     int a = obj.pop_back();
-    std::cout << a<<obj.size() << std::endl;
+    std::cout << obj.size() << std::endl;
     return 0;
 }

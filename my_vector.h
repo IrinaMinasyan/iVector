@@ -11,7 +11,6 @@ private:
 public:
     ivector();
     ivector(const ivector&);
-    ivector(int,ivector&);
     ~ivector();
 
     ivector& operator= (const ivector&);
